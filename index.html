@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sunset is Beautiful</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="https://orangefreesounds.com/wp-content/uploads/2025/07/Warm-relaxing-synthesizer-background-music-ambient-chillout-sound-for-meditation-and-focus.mp3" type="audio/mpeg">
+    </audio>
+    <button id="audio-btn" class="audio-control">🎵 Play Music</button>
+    <div class="moon"></div>
+    <div class="message">the sunset is beautiful, isn't it?</div>
+    <div class="mist" style="bottom: 20px; opacity: 0.3;"></div>
+    <div class="mist" style="bottom: 0; height: 100px; opacity: 0.2; animation: drift 60s infinite linear;"></div>
+    <canvas id="constellation-canvas"></canvas>
+    <svg id="ground-svg"></svg>
+    <script src="script.js"></script>
+</body>
+</html>
